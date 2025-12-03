@@ -4,16 +4,14 @@ A desktop application wrapper for Facebook Messenger built with Tauri.
 
 ## Description
 
-Messenger is a native desktop application that wraps the Messenger web interface (messenger.com) in a standalone window. It provides a desktop experience for Facebook Messenger with native features like notifications, clipboard management, and automatic updates.
+Messenger is a native desktop application that wraps the Messenger web interface (messenger.com) in a standalone window. It provides a desktop experience for Facebook Messenger with native features like notifications and clipboard management.
 
 ## Features
 
 - Native desktop application for Windows, macOS, and Linux
-- Automatic update checking and installation
 - System notifications support
 - Clipboard manager integration
 - Window positioning and management
-- Native menu bar integration
 
 ## Prerequisites
 
@@ -62,12 +60,9 @@ messenger/
 ├── src-tauri/             # Tauri backend (Rust)
 │   ├── src/
 │   │   ├── main.rs        # Application entry point
-│   │   ├── lib.rs         # Main application logic
-│   │   └── update.rs      # Update functionality
+│   │   └── lib.rs         # Main application logic
 │   ├── Cargo.toml         # Rust dependencies
 │   └── tauri.conf.json    # Tauri configuration
-├── public/                # Static assets
-│   └── update.html        # Update window UI
 ├── package.json           # Node.js dependencies
 └── vite.config.ts         # Vite configuration
 ```
@@ -78,7 +73,6 @@ The application configuration is located in `src-tauri/tauri.conf.json`. Key set
 
 - Window size and minimum dimensions
 - Application identifier
-- Update endpoint configuration
 - Security policies
 
 ## Development
@@ -105,12 +99,6 @@ pnpm tauri build --target x86_64-apple-darwin       # macOS Intel
 pnpm tauri build --target aarch64-apple-darwin      # macOS Apple Silicon
 pnpm tauri build --target x86_64-unknown-linux-gnu # Linux
 ```
-
-## Updates
-
-The application includes an automatic update system that checks for new versions from GitHub releases. Updates can be checked manually from the Help menu or automatically on startup.
-
-Update configuration is set in `src-tauri/tauri.conf.json` under the `plugins.updater` section.
 
 ## Technologies
 

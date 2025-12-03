@@ -110,11 +110,6 @@ jobs:
 
       # -------------------------------
 
-      - name: Update Tauri pubkey
-        env:
-          TAURI_SIGNING_PUBLIC_KEY: ${{ secrets.TAURI_SIGNING_PUBLIC_KEY }}
-        run: node scripts/update-tauri-pubkey.js
-
       - name: Generate Changelog
         id: generate_changelog
         if: matrix.platform == 'macos-latest'

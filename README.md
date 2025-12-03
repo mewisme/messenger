@@ -123,7 +123,7 @@ Update configuration is set in `src-tauri/tauri.conf.json` under the `plugins.up
 
 ## License
 
-This project is private and not licensed for public use.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 

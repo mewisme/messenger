@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "messenger",
+  "productName": "Messenger",
   "version": "0.1.0",
   "identifier": "com.mew.messenger",
   "build": {

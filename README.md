@@ -23,8 +23,7 @@ Messenger is a native desktop application that wraps the Messenger web interface
 - Platform-specific build tools:
   - Windows: Microsoft Visual Studio C++ Build Tools
   - macOS: Xcode Command Line Tools
-  - Linux: build-essential, libwebkit2gtk-4.0-dev, libssl-dev, libgtk-3-dev, libayatana-appindicator3-dev
-
+  
 ## Installation
 
 ### Development Setup

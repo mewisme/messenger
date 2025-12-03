@@ -2,6 +2,9 @@
 
 🔨 Other Changes
 
+- Remove update functionality and related files from the project ([416e83f](../../commit/416e83f))
+- Update product name in tauri configuration to "Messenger" ([86a4a9d](../../commit/86a4a9d))
+- Add createUpdaterArtifacts option in tauri configuration ([97ca98c](../../commit/97ca98c))
 - Update CHANGELOG.md, clean up README.md, and refactor version-upgrade.js script ([58286d9](../../commit/58286d9))
 - Update public key in tauri configuration ([02fbbd0](../../commit/02fbbd0))
 - Simplify build.yml by removing unnecessary target arguments for Windows and Ubuntu ([4ba1cfc](../../commit/4ba1cfc))
@@ -10,4 +13,4 @@
 - Update version to 0.1.0 and enhance package scripts; remove app icon ([12674fe](../../commit/12674fe))
 
 
-📋 Full Changelog: [12674fe...58286d9](../../compare/12674fe...58286d9)
+📋 Full Changelog: [12674fe...416e83f](../../compare/12674fe...416e83f)

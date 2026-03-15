@@ -84,6 +84,7 @@ function analyzeCommits(commits) {
   ];
 
   const patchVerbs = [
+    'chore',
     'update',
     'fix',
     'refactor',
@@ -143,6 +144,7 @@ function analyzeCommits(commits) {
     }
     // Check for patches - lowest priority
     else if (
+      lowerCommit.startsWith('chore:') ||
       lowerCommit.startsWith('fix:') ||
       lowerCommit.startsWith('perf:') ||
       lowerCommit.startsWith('refactor:') ||

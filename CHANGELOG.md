@@ -2,6 +2,8 @@
 
 🔨 Other Changes
 
+- Update dependencies in package.json and pnpm-lock.yaml, add new Rust packages in Cargo.toml and Cargo.lock, implement opener plugin functionality in lib.rs, and clean up tauri configuration ([26e8416](../../commit/26e8416))
+- Update version to 0.1.1 and reflect changes in tauri configuration and CHANGELOG.md ([235848a](../../commit/235848a))
 - Remove update functionality and related files from the project ([416e83f](../../commit/416e83f))
 - Update product name in tauri configuration to "Messenger" ([86a4a9d](../../commit/86a4a9d))
 - Add createUpdaterArtifacts option in tauri configuration ([97ca98c](../../commit/97ca98c))
@@ -13,4 +15,4 @@
 - Update version to 0.1.0 and enhance package scripts; remove app icon ([12674fe](../../commit/12674fe))
 
 
-📋 Full Changelog: [12674fe...416e83f](../../compare/12674fe...416e83f)
+📋 Full Changelog: [12674fe...26e8416](../../compare/12674fe...26e8416)

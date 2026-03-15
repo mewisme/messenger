@@ -11,16 +11,7 @@
   },
   "app": {
     "withGlobalTauri": true,
-    "windows": [
-      {
-        "title": "Messenger",
-        "width": 800,
-        "height": 600,
-        "minWidth": 800,
-        "minHeight": 600,
-        "url": "https://www.messenger.com"
-      }
-    ],
+    "windows": [],
     "security": {
       "csp": null
     }

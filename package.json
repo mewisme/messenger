@@ -13,10 +13,10 @@
     "app-upver": "node scripts/generate-changelog.js && node scripts/version-upgrade.js",
     "app-sign": "rm ./key && rm ./key.pub && pnpm tauri signer generate -w key"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@tauri-apps/cli": "^2",
-    "typescript": "~5.6.2",
-    "vite": "^6.0.3"
-  }
+    "@tauri-apps/cli": "^2.10.1",
+    "typescript": "~5.6.3",
+    "vite": "^6.4.1"
+  },
+  "packageManager": "pnpm@10.31.0+sha512.e3927388bfaa8078ceb79b748ffc1e8274e84d75163e67bc22e06c0d3aed43dd153151cbf11d7f8301ff4acb98c68bdc5cadf6989532801ffafe3b3e4a63c268"
 }

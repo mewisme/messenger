@@ -6,6 +6,7 @@
   "permissions": [
     "core:default",
     "notification:default",
-    "clipboard-manager:default"
+    "clipboard-manager:default",
+    "opener:allow-default-urls"
   ]
 }
